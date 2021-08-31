@@ -1,0 +1,396 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D616581A26761B5700DDB244 /* KWResultViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D616581826761B5700DDB244 /* KWResultViewCell.swift */; };
+		D616581B26761B5700DDB244 /* KWResultViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = D616581926761B5700DDB244 /* KWResultViewCell.xib */; };
+		D65131532670C849009A4528 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D65131522670C849009A4528 /* AppDelegate.swift */; };
+		D65131552670C849009A4528 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D65131542670C849009A4528 /* SceneDelegate.swift */; };
+		D65131572670C849009A4528 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D65131562670C849009A4528 /* ViewController.swift */; };
+		D651315A2670C849009A4528 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D65131582670C849009A4528 /* Main.storyboard */; };
+		D651315C2670C84A009A4528 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D651315B2670C84A009A4528 /* Assets.xcassets */; };
+		D651315F2670C84A009A4528 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D651315D2670C84A009A4528 /* LaunchScreen.storyboard */; };
+		D65131732670CCA8009A4528 /* KWConst.swift in Sources */ = {isa = PBXBuildFile; fileRef = D65131722670CCA8009A4528 /* KWConst.swift */; };
+		D65131762670D28C009A4528 /* KWAnswerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D65131752670D28C009A4528 /* KWAnswerViewController.swift */; };
+		D6A71C862671FB4F00BE1421 /* KWOPViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6A71C842671FB4F00BE1421 /* KWOPViewCell.swift */; };
+		D6A71C872671FB4F00BE1421 /* KWOPViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = D6A71C852671FB4F00BE1421 /* KWOPViewCell.xib */; };
+		D6A89AE3267324FD009D0517 /* Toast.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6A89AE2267324FD009D0517 /* Toast.swift */; };
+		D6A89B0E26736CD2009D0517 /* KWFillViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6A89B0C26736CD2009D0517 /* KWFillViewCell.swift */; };
+		D6A89B0F26736CD2009D0517 /* KWFillViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = D6A89B0D26736CD2009D0517 /* KWFillViewCell.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		D616581826761B5700DDB244 /* KWResultViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KWResultViewCell.swift; sourceTree = "<group>"; };
+		D616581926761B5700DDB244 /* KWResultViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = KWResultViewCell.xib; sourceTree = "<group>"; };
+		D651314F2670C849009A4528 /* 小学100以内口算练习.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "小学100以内口算练习.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D65131522670C849009A4528 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		D65131542670C849009A4528 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		D65131562670C849009A4528 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		D65131592670C849009A4528 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		D651315B2670C84A009A4528 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D651315E2670C84A009A4528 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		D65131602670C84A009A4528 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D65131722670CCA8009A4528 /* KWConst.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KWConst.swift; sourceTree = "<group>"; };
+		D65131752670D28C009A4528 /* KWAnswerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KWAnswerViewController.swift; sourceTree = "<group>"; };
+		D6A71C842671FB4F00BE1421 /* KWOPViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KWOPViewCell.swift; sourceTree = "<group>"; };
+		D6A71C852671FB4F00BE1421 /* KWOPViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = KWOPViewCell.xib; sourceTree = "<group>"; };
+		D6A89AE2267324FD009D0517 /* Toast.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Toast.swift; sourceTree = "<group>"; };
+		D6A89B0C26736CD2009D0517 /* KWFillViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KWFillViewCell.swift; sourceTree = "<group>"; };
+		D6A89B0D26736CD2009D0517 /* KWFillViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = KWFillViewCell.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D651314C2670C849009A4528 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D65131462670C849009A4528 = {
+			isa = PBXGroup;
+			children = (
+				D65131512670C849009A4528 /* 小学100以内口算练习 */,
+				D65131502670C849009A4528 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D65131502670C849009A4528 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D651314F2670C849009A4528 /* 小学100以内口算练习.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D65131512670C849009A4528 /* 小学100以内口算练习 */ = {
+			isa = PBXGroup;
+			children = (
+				D6A89AE0267324CF009D0517 /* Lib */,
+				D65131722670CCA8009A4528 /* KWConst.swift */,
+				D65131522670C849009A4528 /* AppDelegate.swift */,
+				D65131542670C849009A4528 /* SceneDelegate.swift */,
+				D65131562670C849009A4528 /* ViewController.swift */,
+				D65131752670D28C009A4528 /* KWAnswerViewController.swift */,
+				D65131582670C849009A4528 /* Main.storyboard */,
+				D651315B2670C84A009A4528 /* Assets.xcassets */,
+				D651315D2670C84A009A4528 /* LaunchScreen.storyboard */,
+				D65131602670C84A009A4528 /* Info.plist */,
+				D6A71C842671FB4F00BE1421 /* KWOPViewCell.swift */,
+				D6A71C852671FB4F00BE1421 /* KWOPViewCell.xib */,
+				D6A89B0C26736CD2009D0517 /* KWFillViewCell.swift */,
+				D6A89B0D26736CD2009D0517 /* KWFillViewCell.xib */,
+				D616581826761B5700DDB244 /* KWResultViewCell.swift */,
+				D616581926761B5700DDB244 /* KWResultViewCell.xib */,
+			);
+			path = "小学100以内口算练习";
+			sourceTree = "<group>";
+		};
+		D6A89AE0267324CF009D0517 /* Lib */ = {
+			isa = PBXGroup;
+			children = (
+				D6A89AE1267324FD009D0517 /* Toast */,
+			);
+			path = Lib;
+			sourceTree = "<group>";
+		};
+		D6A89AE1267324FD009D0517 /* Toast */ = {
+			isa = PBXGroup;
+			children = (
+				D6A89AE2267324FD009D0517 /* Toast.swift */,
+			);
+			path = Toast;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D651314E2670C849009A4528 /* 小学100以内口算练习 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D65131632670C84A009A4528 /* Build configuration list for PBXNativeTarget "小学100以内口算练习" */;
+			buildPhases = (
+				D651314B2670C849009A4528 /* Sources */,
+				D651314C2670C849009A4528 /* Frameworks */,
+				D651314D2670C849009A4528 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "小学100以内口算练习";
+			productName = "小学100以内口算练习";
+			productReference = D651314F2670C849009A4528 /* 小学100以内口算练习.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D65131472670C849009A4528 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1240;
+				LastUpgradeCheck = 1240;
+				TargetAttributes = {
+					D651314E2670C849009A4528 = {
+						CreatedOnToolsVersion = 12.4;
+					};
+				};
+			};
+			buildConfigurationList = D651314A2670C849009A4528 /* Build configuration list for PBXProject "小学100以内口算练习" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D65131462670C849009A4528;
+			productRefGroup = D65131502670C849009A4528 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D651314E2670C849009A4528 /* 小学100以内口算练习 */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D651314D2670C849009A4528 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D651315F2670C84A009A4528 /* LaunchScreen.storyboard in Resources */,
+				D6A71C872671FB4F00BE1421 /* KWOPViewCell.xib in Resources */,
+				D651315C2670C84A009A4528 /* Assets.xcassets in Resources */,
+				D6A89B0F26736CD2009D0517 /* KWFillViewCell.xib in Resources */,
+				D651315A2670C849009A4528 /* Main.storyboard in Resources */,
+				D616581B26761B5700DDB244 /* KWResultViewCell.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D651314B2670C849009A4528 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D65131572670C849009A4528 /* ViewController.swift in Sources */,
+				D65131762670D28C009A4528 /* KWAnswerViewController.swift in Sources */,
+				D65131732670CCA8009A4528 /* KWConst.swift in Sources */,
+				D6A89B0E26736CD2009D0517 /* KWFillViewCell.swift in Sources */,
+				D6A71C862671FB4F00BE1421 /* KWOPViewCell.swift in Sources */,
+				D65131532670C849009A4528 /* AppDelegate.swift in Sources */,
+				D65131552670C849009A4528 /* SceneDelegate.swift in Sources */,
+				D6A89AE3267324FD009D0517 /* Toast.swift in Sources */,
+				D616581A26761B5700DDB244 /* KWResultViewCell.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		D65131582670C849009A4528 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D65131592670C849009A4528 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		D651315D2670C84A009A4528 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D651315E2670C84A009A4528 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D65131612670C84A009A4528 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		D65131622670C84A009A4528 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D65131642670C84A009A4528 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "小学100以内口算练习/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.helper.--100------";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		D65131652670C84A009A4528 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "小学100以内口算练习/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.helper.--100------";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D651314A2670C849009A4528 /* Build configuration list for PBXProject "小学100以内口算练习" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D65131612670C84A009A4528 /* Debug */,
+				D65131622670C84A009A4528 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D65131632670C84A009A4528 /* Build configuration list for PBXNativeTarget "小学100以内口算练习" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D65131642670C84A009A4528 /* Debug */,
+				D65131652670C84A009A4528 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D65131472670C849009A4528 /* Project object */;
+}
